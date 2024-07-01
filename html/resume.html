@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ananta Sharma</title>
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* Custom styles for resume.html */
+        body {
+            font-family: 'GFS Didot', serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .nav-item {
+            margin-right: 30px;
+            margin-left: 80px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            transform: scale(1.1);
+        }
+
+        .resume-content {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .resume-content h2 {
+            margin-top: 0;
+            color: #343a40;
+        }
+
+        .resume-content h3 {
+            margin-top: 20px;
+            color: #343a40;
+        }
+
+        .resume-content ul {
+            padding-left: 20px;
+        }
+
+        .resume-content li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-item {
+                margin-right: 10px;
+            }
+
+            .resume-content {
+                padding: 10px;
+            }
+
+            .resume-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .resume-content h3 {
+                font-size: 1.2rem;
+            }
+        }
+    
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color:#eeeeee;/* Light background color */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+        
+        .about-content {
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        .about-content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .about-section {
+                padding: 20px;
+            }
+        
+            .about-content {
+                width: 80%;
+            }
+        
+            .about-content h2 {
+                font-size: 24px;
+            }
+        
+            .about-content p {
+                font-size: 16px;
+            }
+        }
+        
+        .photo-area {
+            width: 35%; /* Adjust as needed */
+            text-align: right;
+            transition: width 0.3s ease, text-align 0.3s ease; /* Add transition effect */
+        }
+        
+        /* Responsive Image Styles */
+        .photo-area img {
+            max-width: 100%; /* Ensure image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 48px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+           
+            <div class="navbar-menu" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../index.html#home" class="nav-link"><i class='bx bx-home'></i></a>
+                    </li>
+                 
+                    <li class="nav-item">
+                        <a href="../index.html#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#contact" class="nav-link"><i class='bx bxs-chat'></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Resume - Ananta Sharma.html" download="Ananta_Sharma_Resume.html">Download CV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br><br><br>
+    <main>
+        <section id="personal-info" class="personal-info-section">
+            <div class="container">
+                <section id="about" class="about-section">
+                    <div class="about-content">
+                        <h2>About Me</h2>
+                        <p>My name is Ananta Sharma. I am currently staying in Pokhara, Nepal. I am a passionate learner and technology enthusiast. I am pursuing a Bachelor’s degree in Computer Applications at Tribhuvan University, where I am gaining a solid foundation in computer science and software development. My journey with computers began at a young age, sparked by my curiosity and fascination with technology. Since then, I have been deeply interested in coding and programming. I enjoy the process of problem-solving and the creativity involved in software development. My current focus is on mastering languages like HTML, CSS, JavaScript, and PHP to build responsive and dynamic web applications. I am also exploring various frameworks and tools to enhance my skills further. In addition to coding, I have a keen interest in graphic design and digital art.I believe in lifelong learning and continuous growth, both personally and professionally.
+                        </p>
+                    </div>
+                    <div class="photo-area">
+                        <!-- You can add your photo here -->
+                        <img src="../images/p.jpg" alt="Ananta Sharma">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Computer Applications</h3>
+                    <p>Tribhuvan University, PN Campus, Pokhara</p>
+                    <p>Expected Graduation: 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <div class="experience-item">
+                    <h3>Intern - Software Development</h3>
+                    <p>XYZ Company, Pokhara</p>
+                    <p>June 2023 - Present</p>
+                    <ul>
+                        <li>Developed web applications using HTML, CSS, JavaScript, and PHP.</li>
+                        <li>Collaborated with the design team to create user-friendly interfaces.</li>
+                        <li>Assisted in database management using MySQL.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML - Proficient</li>
+                    <li>CSS - Intermediate</li>
+                    <li>JavaScript - Intermediate</li>
+                    <li>PHP - Intermediate</li>
+                    <li>MySQL - Intermediate</li>
+                    <li>Java - Beginner</li>
+                    <li>C - Intermediate</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <h3>Admin and Student Section for University Programs</h3>
+                    <p>Created an admin and student section for the BCA program at PN Campus. Managed student information, notices, exams, etc., and included an admin section.</p>
+                    <p>Technologies used: HTML, CSS, PHP, JavaScript, MySQL</p>
+                </div>
+                <div class="project-item">
+                    <h3>Portfolio</h3>
+                    <p>Created my own portfolio website.</p>
+                    <p>Technologies used: HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you would like to get in touch, feel free to connect with me on social media or send me an email.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/samir__sharma10?igsh=dmhwaWw3NzYwODM="><i class='bx bxl-instagram'></i> Instagram</a>
+                    <a href="#"><i class='bx bxl-twitter'></i> Twitter</a>
+                    <a href="https://www.linkedin.com/in/ananta-sharma-06b621307/"><i class='bx bxl-linkedin'></i> LinkedIn</a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i> WhatsApp</a>
+                    <a href="https://github.com/anantasharma510"><i class='bx bxl-github'></i> GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+       
+        <div class="container">
+            <p>&copy; 2024 Ananta Sharma. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
